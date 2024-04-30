@@ -1,12 +1,11 @@
 #include "sort.h"
 
 /**
- * shell_sort - function sorts an array of integers using
- * the shell sort algorithm with Knuth sequence
- * @array: the array of integers
- * @size: size of the array
+ * shell_sort - Sorts an array of integers using the shell sort algorithm.
+ * @array: The array to be sorted.
+ * @size: The size of the array.
  *
- * Return: none
+ * Return: None.
  */
 void shell_sort(int *array, size_t size)
 {
